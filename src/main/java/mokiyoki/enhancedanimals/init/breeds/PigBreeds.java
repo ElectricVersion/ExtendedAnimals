@@ -28,5 +28,9 @@ public class PigBreeds {
             .setGeneSketch(new GeneSketch(), new GeneSketch().add(0, "3").add(12, "2","1").add(32, "2","1","2","2").add(62, "2","1")));
     public static final Breed TAMWORTH = new Breed(new Breed.Properties().setData("Tamworth", Biomes.FOREST, Breed.Rarity.ORDINARY)
             .setGeneSketch(new GeneSketch(), new GeneSketch().add(0, "3").add(12, "3","1").add(32, "2","1","2","2").add(62, "2","1")));
+    public static final Breed MANGALITSA = new Breed(new Breed.Properties().setData("Mangalitsa", Biomes.FOREST, Breed.Rarity.ORDINARY)
+            .setGeneSketch(new GeneSketch(), new GeneSketch().add(0, "1", "4").add(12, "3","1").add(32, "2","1","2","3").add(62, "1","1")));
+    public static final Breed HEREFORDPIG = new Breed(new Breed.Properties().setData("HerefordPig", Biomes.FOREST, Breed.Rarity.ORDINARY)
+            .setGeneSketch(new GeneSketch(), new GeneSketch().add(0, "3").add(12, "8","1").add(32, "2","1","2","2").add(62, "2","1")));
 
 }
